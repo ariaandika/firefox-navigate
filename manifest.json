@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "treat-handler",
+  "version": "0.1",
+  "description": "foo",
+  "permissions": ["tabs"],
+  "commands": {
+    "prev": {
+      "suggested_key": {
+        "default": "Alt+1",
+        "linux": "Alt+1"
+      },
+      "description": "Previous Tab"
+    },
+    "next": {
+      "suggested_key": {
+        "default": "Alt+3",
+        "linux": "Alt+3"
+      },
+      "description": "Next Tab"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
