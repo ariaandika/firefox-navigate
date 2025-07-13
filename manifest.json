@@ -4,6 +4,11 @@
   "version": "0.1",
   "description": "foo",
   "permissions": ["tabs"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ariaandika@google.com"
+    }
+  },
   "commands": {
     "prev": {
       "suggested_key": {
